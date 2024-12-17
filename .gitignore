@@ -1,0 +1,16 @@
+# Output files
+*.pdf
+
+# Auxiliary files
+*.aux
+*.bbl
+*.bib
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc

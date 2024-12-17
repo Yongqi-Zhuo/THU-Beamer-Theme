@@ -1,0 +1,67 @@
+\documentclass{beamer}
+% \usepackage{hyperref}
+\usepackage[T1]{fontenc}
+
+% other packages
+\usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
+\usepackage{graphicx,pstricks,listings,stackengine}
+
+\author{Yongqi Zhuo}
+\title{THU Beamer Theme}
+\subtitle{Graduation Thesis Report}
+\institute{Institute of Interdisciplinary Information Sciences, Tsinghua University}
+\date{Dec. 17, 2024}
+\usepackage{Tsinghua}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\bfseries\color{deepblue},
+    emphstyle=\ttfamily\color{deepred},    % Custom highlighting style
+    stringstyle=\color{deepgreen},
+    numbers=left,
+    numberstyle=\small\color{halfgray},
+    rulesepcolor=\color{red!20!green!20!blue!20},
+    frame=shadowbox,
+}
+
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+    \begin{figure}[htpb]
+        \begin{center}
+            \includegraphics[width=0.2\linewidth]{pic/Tsinghua_University_Logo.eps}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \tableofcontents[sectionstyle=show,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+\end{frame}
+
+
+\section{Background}
+
+\begin{frame}{Background}
+    \begin{itemize}
+        \item This is a beamer theme for Tsinghua University~\cite{origin}.
+        \item It is based on the official color of Tsinghua University.
+        \item It is designed for graduation thesis defense.
+    \end{itemize}
+\end{frame}
+
+\section{Bibliography}
+
+\begin{frame}[allowframebreaks]
+    \bibliography{ref}
+    \bibliographystyle{alpha}
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        {\Huge\calligra Thanks!}
+    \end{center}
+\end{frame}
+
+\end{document}
