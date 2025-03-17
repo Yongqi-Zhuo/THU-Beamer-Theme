@@ -4,7 +4,6 @@
 # Auxiliary files
 *.aux
 *.bbl
-*.bib
 *.blg
 *.fdb_latexmk
 *.fls
